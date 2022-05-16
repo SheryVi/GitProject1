@@ -64,6 +64,25 @@ after that you don't need them unless you want to change your connection.
 git remote remove origin
 to remove the connection of local with remote
 
+use git add filename to add just your desired file in staging area
+
+git log --> shows you all the commits in your local repo
+Head --> points to the latest commit that is present in your working directory.
+origin.main --? points to the commit in your local repo util which your remote repo is synchronised
+
+Extra git commands:
+1. git ls-files:
+show you files that are present in the staging area.
+
+*you can not overwrite a file in staging area. git is going to tell that hey you already have some changes
+in your staging area that needs to be in the repo.
+
+2. git rm --cached filename:
+removes the files from the staging area.
+
+
+
+
 
 
 
