@@ -39,6 +39,33 @@ tells the status of repo,
 .untracked appears in RED
 .tracked --> the one in staging area appears in Green color
 
+3. git add .
+adds everything to the staging area
+
+4. git commit -m "commit message"
+send everything in the staging area to the repo
+
+
+GitHup:
+for each local repo your must have a unique individual remote repo.
+
+1. Create a new Remote repo.
+2. On your terminal: git remote -v to check for any connections (if empty shows no connection yet)
+3. git remote add originURL
+4. git branch -M main (naming your branch)
+
+you need to do all these steps Only once after creation of a new repo.
+after that you don't need them unless you want to change your connection.
+
+5. git push -u origin main --> use it first time only
+6. after you can do git push only
+
+-----not follow me------
+git remote remove origin
+to remove the connection of local with remote
+
+
+
 
 
 
